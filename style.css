@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(47, 88%, 63%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid black;
+}
+.card img{
+    border-radius: 20px;
+    width: 100%;
+}
+section.card{
+    width: 100%;
+    padding: 20px;
+}
+.learning{
+    background: hsl(47, 79%, 63%);
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.learning p{
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight:bolder;
+}
+.date p{
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}
+.header{
+    padding: 10px 0;
+    
+}
+.header h1{
+    font-family: "Figtree", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+.content p{
+    font-family: "Figtree", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(0, 2%, 55%);
+    line-height: 1.5;
+}
+
+
+.html-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 30px;
+}
+.author-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+.display-pic{
+    width: 40px;
+}
+.display-pic img{
+    width: 100%;
+}
+.author p{
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: hsl(0, 0%, 7%);
+}
+.main-background{
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 10px;
+}
+.header h1:hover{
+    color: hsl(47, 88%, 63%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+@media (max-width: 1024px){
+    main{
+        width: 80%;
+    }
+   
+}
+
+
+
+
